@@ -4,11 +4,14 @@ by Katapon Sinpuyawong
 I ran the tasks on LENOVO Legion Y520 laptop with 2.81Ghz i7-7700HQ,
 and got these results:
 
-Task                                               | Time            |
----------------------------------------------------------------------:
-Read file 1-char at a time to String               | 0.078262 sec    |
-Read file 1-char at a time to StringBuilder        | 0.002084 sec    |
-Read file line at a time using BufferedReader      | 0.001855 sec    |
+| Task------------------------------------------------|-Time-------------|
+
+| Read file 1-char at a time to String---------------|-0.078262-sec----|
+
+| Read file 1-char at a time to StringBuilder-------|-0.002084-sec----|
+
+| Read file line at a time using BufferedReader----|-0.001855-sec----|
+
 
 From these result when reading Alice-in-Wonderland.txt using FileReader, append to String. Read 11586 chars in 0.078262 sec. 
 Reading Alice-in-Wonderland.txt using FileReader, append to StringBuilder. Read 11586 chars in 0.002084 sec. 
